@@ -1,0 +1,306 @@
+<html>
+<head>
+	<title>Yamaha Motor Indonesia</title>
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="libs/css/wadaw.css">
+	<link rel="stylesheet" type="text/css" href="libs/css/dealers.css">
+	<link rel="stylesheet" type="text/css" href="libs/css/footer.css">
+		<style>
+		h3{
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" id="brandNav" href="index.html"><img id="brand" src="src/img/yamahabrand.png" /></a>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="products.html">PRODUCTS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="parts-and-accesories.html">PARTS AND ACCESORIES</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="credit-simulation.html">CREDIT SIMULATION</a>
+				</li>
+				<li class="nav-item  active">
+					<a class="nav-link" href="dealers.html">DEALERS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="tracking.html">TRACKING</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="news.html">NEWS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="other.html">OTHERS</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<a href="search.html"role="button" class="btn btn-danger my-2 my-sm-0" id="logoutbtn">
+						 Search
+					</a>
+			</form>
+		</div>
+	</nav>
+	<div id="banner">
+		<section class="banner target-on simplefy">
+			<div class="banner-static">
+				<section class="banner-item " style="background-image: url(http://www.yamaha-motor.co.id/uploads/banner/LXa3Rlt2sGvemlT2qUep.jpg);">
+						<div class="container">
+						<br/>
+						<h1 class="banner-static-bigTitle text-uppercase text-center">Dealers <span>And</span> Services</h1>
+						<br/>
+						<form class="form-dealer">
+							<div class="row">
+								<section class="col-md-12">
+									<div class="form-group">
+										<label for="search-dealerServices" class="sr-only">Type a City name, Store name and other</label>
+										<input id="search-dealerServices" class="form-control search-dealerServices search" type="text" placeholder="Type a City name, Store name and other" data-search="">
+									</div>
+								</section>
+
+							</div>
+							<br/>
+						</form>
+					</div>
+				</section>
+			</div>
+		</section>
+	</div>
+	<div class="container rounded" id="filterBox" style="padding: 2%; padding-top: 1%;">
+			<form id="filter_form">
+				<h3 class="titleContent">Filter By</h3>
+					<div class="filter-box">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="form-group">
+							<label>Province</label>
+							<select class="select2 form-control select2-hidden-accessible" data-placeholder="Province" id="province" name="province" tabindex="-1" aria-hidden="true">
+								<option></option>
+								<option value="51">BALI</option>
+								<option value="36">BANTEN</option>
+								<option value="17">BENGKULU</option>
+								<option value="34">DI YOGYAKARTA</option>
+								<option value="31">DKI JAKARTA</option>
+								<option value="75">GORONTALO</option>
+								<option value="15">JAMBI</option>
+								<option value="32">JAWA BARAT</option>
+								<option value="33">JAWA TENGAH</option>
+								<option value="35">JAWA TIMUR</option>
+								<option value="61">KALIMANTAN BARAT</option>
+								<option value="63">KALIMANTAN SELATAN</option>
+								<option value="62">KALIMANTAN TENGAH</option>
+								<option value="64">KALIMANTAN TIMUR</option>
+								<option value="65">KALIMANTAN UTARA</option>
+								<option value="19">KEPULAUAN BANGKA BELITUNG</option>
+								<option value="21">KEPULAUAN RIAU</option>
+								<option value="18">LAMPUNG</option>
+								<option value="81">MALUKU</option>
+								<option value="82">MALUKU UTARA</option>
+								<option value="11">NANGGROE ACEH DARUSSALAM</option>
+								<option value="52">NUSA TENGGARA BARAT</option>
+								<option value="53">NUSA TENGGARA TIMUR</option>
+								<option value="94">PAPUA</option>
+								<option value="91">PAPUA BARAT</option>
+								<option value="14">RIAU</option>
+								<option value="76">SULAWESI BARAT</option>
+								<option value="73">SULAWESI SELATAN</option>
+								<option value="72">SULAWESI TENGAH</option>
+								<option value="74">SULAWESI TENGGARA</option>
+								<option value="71">SULAWESI UTARA</option>
+								<option value="13">SUMATERA BARAT</option>
+								<option value="16">SUMATERA SELATAN</option>
+								<option value="12">SUMATERA UTARA</option>
+							</select>
+							</div>
+						</div>
+					</div>
+						<div class="row">
+						<div class="col-sm-3">
+							<div class="form-group">
+							<label>Cities</label>
+							<select class="select2 form-control select2-hidden-accessible" data-placeholder="Cities" id="cities" name="cities" tabindex="-1" aria-hidden="true">
+								<option></option>
+								<option value="51">Jakarta Selatan</option>
+								<option value="36">Jakarta Utara</option>
+								<option value="17">Jakarta Barat</option>
+								<option value="34">Jakarta Timur</option>
+							</select>
+							</div>
+						</div>
+						</div>
+						<div class="row">
+						<div class="col-sm-3">
+							<div class="form-group">
+							<label>Category</label>
+							<select class="select2 form-control select2-hidden-accessible" data-placeholder="Category" id="category" name="category" tabindex="-1" aria-hidden="true">
+								<option></option>
+								<option value="51">Service & Sparepart</option>
+								<option value="36">Sales</option>
+								<option value="17">CBU</option>
+								<option value="34">Premium Shop</option>
+							</select>
+							</div>
+						</div>
+						</div>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="form-group">
+								<label>Facilities</label>
+								<select class="select2 form-control select2-hidden-accessible" data-placeholder="Facilities" id="facilities" name="facilities" tabindex="-1" aria-hidden="true">
+								<option></option>
+								<option value="51">Sky</option>
+								<option value="36">Fast Pit</option>
+								<option value="17">FI Ready</option>
+							</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<br/>
+		<div class="container">
+			<h3 class="titleContent">Results</h3>
+			<hr/>
+			<section id="dealerBox" class="dealerServices-box-body" data-category="FI Ready" data-title="FI Ready">
+				<input type="hidden" name="latitude" id="latitude_1" value="-6.2251666667">
+				<input type="hidden" name="longitude" id="longitude_1" value="107.1604666667">
+				<h4 class="dealerServices-city">KAB. BEKASI</h4>
+				<h3 class="dealerServices-name">ERAMOTOR SUKATANI</h3>
+				<address class="dealerServices-address">
+					KP. WARUNG POJOK NO.52 RT.005 / 006 DS.SUKARAYA KEC.KARANG BAHAGIA <br>
+					<a href="tel:02189106739" style="font-weight: bold;"><span class="glyphicon glyphicon-earphone"></span>02189106739</a><br>
+				</address>
+				<button  class="btn btn-map" ><a href="dealers-map.html"><span class="glyphicon glyphicon-map-marker"></span> View Location</a></button>
+				<br><br>
+				<img src="src/img/map.png" class="content"/>
+			</section>
+		</div>
+		<footer>
+<div>
+		<div id="box">
+			<div class="container">
+                <table class="table">
+                    <thead>
+						<tr>
+							<th><a href="products.html"><h4>Products</h4></a></th>
+							<th><a href="parts-and-accesories.html"><h4>Parts &amp; Accessories</h4></a></th>
+							<th><a href="dealers.html"><h4>Dealer &amp; Services</h4></a></th>
+							<th><a href="news.html"><h4>News &amp; Articles</h4></a></th>
+							<th><a href="other.html"><h4>Others</h4></a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="products-at-matic.html" class="top-option"><span>MATIC</span></a></td>
+							<td><a href="parts-and-accesories-ygp.html" class="top-option"><span>YGP</span></a></td>
+							<td></td>
+							<td></td>
+							<td><a href="other-aboutus.html">About Us</a></td>
+						</tr>
+						<tr>
+							<td><a href="products-at-maxi.html" class="top-option"><span>MAXI YAMAHA</span></a></td>
+							<td><a href="parts-and-accesories-helmet.html" class="top-option"><span>HELMET</span></a></td>
+							<td></td>
+							<td></td>
+							<td><a href="other-contact.html">Contact</a></td>
+						</tr>
+						<tr>
+							<td><a href="products-mt-naked.html" class="top-option"><span>NAKED BIKE</span></a></td>
+							<td><a href="parts-and-accesories-apparel.html" class="top-option"><span>APPAREL</span></a></td>
+							<td></td>
+							<td></td>
+							<td><a href="other-career.html"><span>Career</span></a></td>
+						</tr>	
+						<tr>
+							<td><a href="products-mt-sport.html" class="top-option"><span>SPORT</span></a></td>
+							<td><a href="parts-and-accesories-acc.html" class="top-option"><span>ACCESSORIES</span></a></td>
+							<td></td>
+							<td></td>
+							<td><a href="other-investor.html"><span>Investor</span></a></td>
+						</tr>	
+						<tr>
+							<td><a href="products-yamaha.html" class="top-option"><span>YAMAHA MOVISTAR LIVERY</span></a></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><a href="products-mt-moped.html" class="top-option"><span>MOPED</span></a></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>							
+						<tr>
+							<td><a href="products-cbu.html" class="top-option"><span>CBU</span></a></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>							
+						<tr>
+							<td><a href="products-atv.html" class="top-option"><span>ATV</span></a><td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>							
+					</tbody>
+                </table>
+			</div>
+		</div>
+		<div class="container row">
+			<div id="alamat">
+                <div class="col-md-12">
+                        <div>
+                            <address>
+                                <h3>Yamaha Indonesia Motor Manufacturing</h3>
+                                <p>
+                                    Jl. DR. KRT. Rajiman Widyodiningrat<br>
+                                    (Jl. Raya Bekasi Km 23) Pulo Gadung<br>
+                                    Jakarta 13920, Indonesia
+                                </p>
+                            </address>
+                            <section class="footer-contact">
+                                <div class="yamaha-contact">
+                                    <div class="contact-top">
+                                        <div class="contact-left">
+                                            Yamaha Contact Center
+                                        </div>
+                                        <div class="contact-right">
+                                            <div class="main-contact">											
+                                                <div class="contact-number">
+                                                    <a href="tel:62-021-2457-5555">021 2457 5555</a><br>
+                                                    <a href="tel:62-021-461-8000">021 461 8000</a>
+                                                </div>
+                                                <div class="right-bottom">
+													<a href="tel:62-8111080090">
+													 08111080090
+													</a>
+													<br>
+													<a href="tel:62-021-461-6995">
+													0214616995
+													</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <a href="#" class="bottom-email">contact_center@yamaha-motor.co.id</a>
+                                </div>
+                            </section>
+                        </div>
+                </div>
+            </div>
+		</div>
+</footer>
+</body>
+
+</html><br/><br/>

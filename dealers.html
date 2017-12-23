@@ -1,0 +1,232 @@
+<html>
+<head>
+	<title>Yamaha Motor Indonesia</title>
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="libs/css/wadaw.css">
+	<link rel="stylesheet" type="text/css" href="libs/css/dealers.css">
+	<link rel="stylesheet" type="text/css" href="libs/css/footer.css">
+	<style>
+		h3{
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-custom">
+			<a class="navbar-brand" id="brandNav" href="index.html"><img id="brand" src="src/img/yamahabrand.png" /></a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="products.html" >PRODUCTS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="parts-and-accesories.html" id="selectedNavbar">PARTS AND ACCESORIES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="credit-simulation.html">CREDIT SIMULATION</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="dealers.html">DEALERS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="tracking.html">TRACKING</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="news.html">NEWS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="other.html">OTHERS</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<a href="search.html"role="button" class="btn btn-outline-danger my-2 my-sm-0" id="logoutbtn">
+						 Search
+					</a>
+				</form>
+			</div>
+		</nav>
+		<br/><br/><br/>
+	<div id="banner">
+		<section class="banner target-on simplefy">
+			<div class="banner-static">
+				<section class="banner-item " style="background-image: url(http://www.yamaha-motor.co.id/uploads/banner/LXa3Rlt2sGvemlT2qUep.jpg);">
+						<div class="container">
+						<br/>
+						<h1 class="banner-static-bigTitle text-uppercase text-center">Dealers <span>And</span> Services</h1>
+						<br/>
+						<form class="form-dealer">
+							<div class="row">
+								<section class="col-md-12">
+									<div class="form-group">
+										<label for="search-dealerServices" class="sr-only">Type a City name, Store name and other</label>
+										<input id="search-dealerServices" class="form-control search-dealerServices search" type="text" placeholder="Type a City name, Store name and other" data-search="">
+									</div>
+								</section>
+
+							</div>
+							<br/>
+						</form>
+					</div>
+				</section>
+			</div>
+		</section>
+	</div>
+	<div class="container rounded" id="filterBox" style="padding: 2%; padding-top: 1%;">
+			<form id="filter_form">
+				<h3 class="titleContent">Filter By</h3>
+					<div class="filter-box">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="form-group">
+							<label>Province</label>
+							<select class="select2 form-control select2-hidden-accessible" data-placeholder="Province" id="province" name="province" tabindex="-1" aria-hidden="true">
+								<option></option>
+								<option value="51">BALI</option>
+								<option value="36">BANTEN</option>
+								<option value="17">BENGKULU</option>
+								<option value="34">DI YOGYAKARTA</option>
+								<option value="31">DKI JAKARTA</option>
+								<option value="75">GORONTALO</option>
+								<option value="15">JAMBI</option>
+								<option value="32">JAWA BARAT</option>
+								<option value="33">JAWA TENGAH</option>
+								<option value="35">JAWA TIMUR</option>
+								<option value="61">KALIMANTAN BARAT</option>
+								<option value="63">KALIMANTAN SELATAN</option>
+								<option value="62">KALIMANTAN TENGAH</option>
+								<option value="64">KALIMANTAN TIMUR</option>
+								<option value="65">KALIMANTAN UTARA</option>
+								<option value="19">KEPULAUAN BANGKA BELITUNG</option>
+								<option value="21">KEPULAUAN RIAU</option>
+								<option value="18">LAMPUNG</option>
+								<option value="81">MALUKU</option>
+								<option value="82">MALUKU UTARA</option>
+								<option value="11">NANGGROE ACEH DARUSSALAM</option>
+								<option value="52">NUSA TENGGARA BARAT</option>
+								<option value="53">NUSA TENGGARA TIMUR</option>
+								<option value="94">PAPUA</option>
+								<option value="91">PAPUA BARAT</option>
+								<option value="14">RIAU</option>
+								<option value="76">SULAWESI BARAT</option>
+								<option value="73">SULAWESI SELATAN</option>
+								<option value="72">SULAWESI TENGAH</option>
+								<option value="74">SULAWESI TENGGARA</option>
+								<option value="71">SULAWESI UTARA</option>
+								<option value="13">SUMATERA BARAT</option>
+								<option value="16">SUMATERA SELATAN</option>
+								<option value="12">SUMATERA UTARA</option>
+							</select>
+							</div>
+						</div>
+					</div>
+						<div class="row">
+						<div class="col-sm-3">
+							<div class="form-group">
+							<label>Cities</label>
+							<select class="select2 form-control select2-hidden-accessible" data-placeholder="Cities" id="cities" name="cities" tabindex="-1" aria-hidden="true">
+								<option></option>
+								<option value="51">Jakarta Selatan</option>
+								<option value="36">Jakarta Utara</option>
+								<option value="17">Jakarta Barat</option>
+								<option value="34">Jakarta Timur</option>
+							</select>
+							</div>
+						</div>
+						</div>
+						<div class="row">
+						<div class="col-sm-3">
+							<div class="form-group">
+							<label>Category</label>
+							<select class="select2 form-control select2-hidden-accessible" data-placeholder="Category" id="category" name="category" tabindex="-1" aria-hidden="true">
+								<option></option>
+								<option value="51">Service & Sparepart</option>
+								<option value="36">Sales</option>
+								<option value="17">CBU</option>
+								<option value="34">Premium Shop</option>
+							</select>
+							</div>
+						</div>
+						</div>
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="form-group">
+								<label>Facilities</label>
+								<select class="select2 form-control select2-hidden-accessible" data-placeholder="Facilities" id="facilities" name="facilities" tabindex="-1" aria-hidden="true">
+								<option></option>
+								<option value="51">Sky</option>
+								<option value="36">Fast Pit</option>
+								<option value="17">FI Ready</option>
+							</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<br/>
+		<div class="container">
+			<h3 class="titleContent">Results</h3>
+			<hr/>
+			<section id="dealerBox" class="dealerServices-box-body" data-category="FI Ready" data-title="FI Ready">
+				<input type="hidden" name="latitude" id="latitude_1" value="-6.2251666667">
+				<input type="hidden" name="longitude" id="longitude_1" value="107.1604666667">
+				<h4 class="dealerServices-city">KAB. BEKASI</h4>
+				<h3 class="dealerServices-name">ERAMOTOR SUKATANI</h3>
+				<address class="dealerServices-address">
+					KP. WARUNG POJOK NO.52 RT.005 / 006 DS.SUKARAYA KEC.KARANG BAHAGIA <br>
+					<a href="tel:02189106739" style="font-weight: bold;"><span class="glyphicon glyphicon-earphone"></span>02189106739</a><br>
+				</address>
+				<button  class="btn btn-map" ><a href="dealers-map.html"><span class="glyphicon glyphicon-map-marker"></span> View Location</a></button>
+				<br><br>
+			</section>
+		</div>
+		<br/><br/>
+		<!--FOOTER BEGIN-->
+		<div class="footer" style="background-color: white;">
+			<br/>
+			<center>
+				<img src="src/img/fbicon.png" style="height:30px"/> <img src="src/img/twiticon.png" style="height:30px"/> <img src="src/img/igicon.png" style="height:30px"/>
+			</center>
+			<br/>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<a href="products.html"><h6 class="footerSelect0" style="color:red" ><b>PRODUCTS</b></h6></a><hr/>
+						<a href="products-at.html"><h6 style="color:black" class="footerSelect">Automatic Transmission</h6></a>
+						<a href="products-mt.html"><h6 style="color:black" class="footerSelect">Manual Transmission</h6></a>
+						<a href="products-yamaha.html"><h6 style="color:black" class="footerSelect">Yamaha Movistar Livery</h6></a>
+						<a href="products-atv.html"><h6 style="color:black" class="footerSelect">ATV</h6></a>
+						<a href="products-cbu.html"><h6 style="color:black" class="footerSelect">CBU</h6></a>
+					</div>
+					<div class="col-sm-3">
+						<a href="parts-and-accesories.html"><h6 style="color:red" class="footerSelect0"><b>PARTS AND ACCESORIES</b></h6></a><hr/>
+						<a href="parts-and-accesories-ygp.html"><h6 style="color:black" class="footerSelect">YGP</h6></a>
+						<a href="parts-and-accesories-helmet.html"><h6 style="color:black" class="footerSelect">Helmet</h6></a>
+						<a href="parts-and-accesories-apparel.html"><h6 style="color:black" class="footerSelect">Apparel</h6></a>
+						<a href="parts-and-accesories-acc.html"><h6 style="color:black" class="footerSelect">Accesories</h6></a>
+						<br/>
+						<a href="dealers.html"><h6 style="color:red" class="footerSelect0"><b>DEALERS AND SERVICES</b></h6></a><hr/>
+						<a href="dealers.html"><h6 style="color:black" class="footerSelect">Find Dealers and Services</h6></a>
+					</div>
+					<div class="col-sm-3">
+						<a href="news.html"><h6 style="color:red" class="footerSelect0"><b>NEWS AND ARTICLES</b></h6></a><hr/>
+						<a href="news.html"><h6 style="color:black" class="footerSelect">Read News and Articles</h6></a>
+						<br/>
+						<a href="other.html"><h6 style="color:red" class="footerSelect0"><b>OTHERS</b></h6></a><hr/>
+						<a href="other-aboutus.html"><h6 style="color:black" class="footerSelect">About Us</h6></a>
+						<a href="other-contact.html"><h6 style="color:black" class="footerSelect">Contact</h6></a>
+						<a href="other-career.html"><h6 style="color:black" class="footerSelect">Career</h6></a>
+						<a href="other-investor.html"><h6 style="color:black" class="footerSelect">Investor</h6></a>
+					</div>
+					<div class="col-sm-3">
+						<img src="src/img/yamahafooter.jpg"/>
+					</div>
+				</div>
+			</div>
+			<br/><br/>
+		</div>
+		<!--FOOTER END-->
+</body>
+
+</html>
